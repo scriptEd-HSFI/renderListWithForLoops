@@ -9,6 +9,8 @@ var data = [
 var list = $('#list');
 
 for(var i = 0; i < data.length; i++) {
-	var item = '<div class="item"><img src="' + data[i][0] + '"><p>'+ data[i][1] +'</p></div>';
-	list.append(item);
+	var image = '<img src="'+ data[i][0] +'"/>'
+	var text = '<p>'+ data[i][1] +'<p/>'
+	var post = '<div class="post">' + image + text + '</div>';
+	list.append(post);
 }
