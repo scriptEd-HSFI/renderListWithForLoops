@@ -1,0 +1,29 @@
+body {
+	font-family: Georgia;
+	color: #444;
+}
+
+.header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.header h1,
+.header h3 {
+	margin: 10px 0;
+}
+
+.header h3 {
+	color: #999;
+}
+
+#list {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+img {
+	width: 100%;
+}
+
+/* Add your CSS here! */
